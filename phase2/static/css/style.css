@@ -1,0 +1,43 @@
+#stations-menu {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+#stations-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.bike-change-label {
+    animation: fadeInOut 3s forwards;
+    z-index:9999;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(-10px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+
+
+/** Page de Login **/
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container .btn {
+    width: 100%;
+}
+
+/** Menu **/
+
+
